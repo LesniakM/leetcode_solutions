@@ -5,6 +5,10 @@ Given an array of integers nums and an integer target, return indices of the two
 You may assume that each input would have exactly one solution, and you may not use the same element twice.
 
 You can return the answer in any order.
+
+Result:
+Runtime: 99 ms, faster than 60.76% of Python3 online submissions for Two Sum.
+Memory Usage: 14.9 MB, less than 95.39% of Python3 online submissions for Two Sum.
 """
 
 
