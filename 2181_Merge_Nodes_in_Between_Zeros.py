@@ -47,7 +47,7 @@ class Solution:
             next_node = next_node.next             # Go to next node
 
         current_node.next = None                 # Cutout the rest when reached the bottom
-        return head.next
+        return head.next                         # Return ListNode line above, drop first node.
 
 
 def node_vals(node_list):
