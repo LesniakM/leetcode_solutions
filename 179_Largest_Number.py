@@ -28,7 +28,6 @@ class Solution:
     def bruteforce_bubble_sort(nums: list[int]) -> list[int]:
         input_len = len(nums)
         swapped = True
-        iterations = 0
         for i in range(input_len - 1):
             if not swapped:
                 break
@@ -39,8 +38,6 @@ class Solution:
                 if int(mid1) < int(mid2):
                     nums[j], nums[j + 1] = nums[j + 1], nums[j]
                     swapped = True
-                iterations += 1
-        print(iterations)
         return nums
 
 
