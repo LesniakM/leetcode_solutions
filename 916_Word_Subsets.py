@@ -30,6 +30,7 @@ class Solution:
                     yep = False
             if yep:
                 out.append(word)
+                
         return out
 
 
